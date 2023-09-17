@@ -141,10 +141,13 @@ def runprogram():
     geocoder = OpenCageGeocode(Key)
     query = str(location)
     results = geocoder.geocode(query)
+    global lat
     lat = results[0]['geometry']['lat']
+    global lng
     lng = results[0]['geometry']['lng']
     coordinates = (lat, lng)
     geoLoc = Nominatim(user_agent="GetLoc")
+    global locname
     locname = geoLoc.reverse(coordinates)
     print(locname.address)
 
