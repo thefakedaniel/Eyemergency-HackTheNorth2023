@@ -33,4 +33,4 @@ Additionally, my Twilio account only has 20$ worth of SMS messages, so use the a
 Built and Developed entirely by Daniel Liu
 
 # Credits
-Credits to AdHawk for the glasses, to Thomas Kim for teaching me with some code oversights, to Sarah Li for ideas and inspiration, and all the people at Hack The North 2023.
+Credits to AdHawk for the glasses, to Thomas Kim for helping me with some code oversights, to Sarah Li for ideas and inspiration, and all the people at Hack The North 2023.
